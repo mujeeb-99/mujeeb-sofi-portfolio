@@ -83,7 +83,10 @@ function App() {
           </div>
           <div className="hero-visual">
             <div className="orbit orbit-a" /><div className="orbit orbit-b" />
-            <div className="photo-frame"><img src="/mujeeb-sofi.jpeg" alt="Portrait of Mujeeb Sofi" /></div>
+            <div className="photo-frame"><img
+  src={`${import.meta.env.BASE_URL}mujeeb-sofi.jpeg`}
+  alt="Portrait of Mujeeb Sofi"
+/></div>
             <div className="float-card code-card"><div className="float-icon"><Code2 size={20} /></div><strong>Clean code.</strong><span>Thoughtful solutions.</span></div>
             <div className="float-card stack-card"><div className="stack-item"><Monitor /><span><b>Frontend</b><small>React · Tailwind</small></span></div><div className="stack-item"><Terminal /><span><b>Backend</b><small>Node.js · APIs</small></span></div><div className="stack-item"><Database /><span><b>Data</b><small>SQL · MongoDB</small></span></div></div>
             <div className="visual-caption"><Sparkles size={16} /> Curious mind. Builder's mindset.</div>
